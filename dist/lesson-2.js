@@ -1,8 +1,8 @@
 "use strict";
 let age;
 age = 50;
-let name;
-name = 'Max';
+let username;
+username = 'Max';
 let toggle;
 toggle = true;
 let empty;
@@ -54,10 +54,6 @@ const page1 = {
     likes: 100,
     accounts: ['Max', 'Anton', 'Nikita'],
     status: 'open',
-    details: {
-        createAt: '2021-01-01',
-        updateAt: '2021-05-01',
-    }
 };
 const page2 = {
     title: 'Python or Js',
@@ -65,3 +61,4 @@ const page2 = {
     accounts: ['Alex'],
     status: 'close',
 };
+//# sourceMappingURL=lesson-2.js.map

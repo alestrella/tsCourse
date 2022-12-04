@@ -1,8 +1,8 @@
 // ex. 1
 let age: number;
 age = 50;
-let name: string;
-name = 'Max';
+let username: string;
+username = 'Max';
 let toggle: boolean;
 toggle = true;
 let empty: null;
@@ -82,10 +82,10 @@ const page1: DataPage = {
   likes: 100,
   accounts: ['Max', 'Anton', 'Nikita'],
   status: 'open',
-  details: {
-    createAt: '2021-01-01',
-    updateAt: '2021-05-01',
-  }
+  // details: {
+  //   createAt: '2021-01-01',
+  //   updateAt: '2021-05-01',
+  // }
 }
 
 const page2:DataPage = {
