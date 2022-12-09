@@ -1,5 +1,3 @@
-export{}
-
 class Key{
     private signature: number;
     constructor() {
@@ -46,8 +44,13 @@ class MyHouse extends House{
 }
 
 const key = new Key();
+const key2 = new Key();
 const myHouse = new MyHouse(key);
 const newPerson = new Person(key);
+const friend = new Person(key2);
 
 myHouse.openDoor(newPerson.getKey());
 myHouse.comeIn(newPerson);
+
+myHouse.openDoor(friend.getKey());
+myHouse.comeIn(friend);
